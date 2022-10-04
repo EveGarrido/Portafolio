@@ -54,6 +54,11 @@ nav a:last-child {
   margin-right: 40px;
 }
 
+a:hover {
+  cursor: pointer;
+  color: #8E7BEF;
+}
+
 .mobile-menu {
   display: none;
 }
@@ -377,11 +382,10 @@ h3 {
   .icons-skills {
     width: 60px;
     height: 60px;
-    margin-left: 50px;
+    display: flex;
+    margin: auto;
   }
 }
-
-
 
 @media (max-width: 480px) { /*id solo para movil, no se usará en desktop*/
   #size-mobile {
@@ -429,10 +433,6 @@ h3 {
   font-size: 18px;
 }
 
-#third-section { /* posible fusión*/
-  background-color: #f9f5f2;
-
-}
 .contact-information {
   margin: 50px 100px;
  }
